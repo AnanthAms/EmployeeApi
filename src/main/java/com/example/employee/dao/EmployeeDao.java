@@ -19,7 +19,7 @@ public class EmployeeDao {
 
 	public String postThis(Employee e) {
 		er.save(e);
-		return "Posted successfully";
+		return "Posted successfully saved";
 	}
 	
 	@GetMapping(value="/get")
